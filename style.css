@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #EEEDEF;
+    max-width: 100%;
+    height: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+   
+}
+
+h1{
+    padding: 56px 5px 5px 150px;
+
+}
+
+p{
+    padding: 10px 5px 5px 150px;
+    font-size: 12px;
+}
+
+form{
+    margin: 30px 5px 20px 150px;
+    width: 900px;
+}
+
+span{
+    display: flex;
+    font-size: 10px;
+    color: #a7a7a7;
+    margin-top: 2px;
+
+}
+
+div label{
+    background-color: #edebed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 5px;
+    padding-top: 7px;
+    border-radius: 5px 0px 0px 5px  ;
+    margin-right: -4px;
+    border: 1px solid rgb(199, 199, 199);
+}
+
+div input{
+    padding: 4.5px;
+    padding-top: 5.5px;
+    width: 400px;
+    border: 1px solid rgb(161, 161, 161);
+    box-shadow: 1px 0px 7px #62859e;
+}
+
+#formulario{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+button{
+    margin-top: 10px;
+    background-color: #4db5e2;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+#error{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(175, 22, 22);
+    width: 450px;
+    margin: 30px 5px 20px 150px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+#sucesso{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(10, 97, 17);
+    width: 450px;
+    margin: 30px 5px 20px 150px;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
