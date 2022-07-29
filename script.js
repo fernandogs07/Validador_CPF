@@ -39,7 +39,7 @@ function validaCpf(cpf) {
         return true;
     }
 }
-
+    
 
 function validacao() {
     console.log("Iniciando validação cpf!");
@@ -64,4 +64,6 @@ function validacao() {
         }
     }
 }
+
+
 
